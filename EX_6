@@ -1,0 +1,24 @@
+Num = int(input(
+"Enter a number you want to change within the range of 1 through 10: ")) 
+if Num==1 :
+    print("Your Number in Roman Numerals : I")
+elif Num==2 :
+    print("Your Number in Roman Numerals : II")
+elif Num==3 :
+    print("Your Number in Roman Numerals : III")
+elif Num==4 :
+    print("Your Number in Roman Numerals : IV")
+elif Num==5 :
+    print("Your Number in Roman Numerals : V")
+elif Num==6 :
+    print("Your Number in Roman Numerals : VI")
+elif Num==7 :
+    print("Your Number in Roman Numerals : VII")
+elif Num==8 :
+    print("Your Number in Roman Numerals : VIII")
+elif Num==9 :
+    print("Your Number in Roman Numerals : IX")
+elif Num==10 :
+    print("Your Number in Roman Numerals : X")
+elif Num>10 :
+    print("we can't do that for you.")
