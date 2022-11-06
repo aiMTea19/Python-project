@@ -1,0 +1,17 @@
+x = int(input("Enter a number in the range of 1 through 7: "))
+if x==1 :
+    print("Its Monday!")
+elif x==2 :
+    print("Its Tuesday!")
+elif x==3 :
+    print("Its Wednesday!")
+elif x==4 :
+    print("Its Thursday!")
+elif x==5 :
+    print("Its Friday!")
+elif x==6 :
+    print("Its Saturday!")
+elif x==7 :
+    print("Its Sunday!")
+elif x > 7 :
+    print("we don't have more than 7 days in a week!!!")
