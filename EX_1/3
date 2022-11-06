@@ -1,0 +1,4 @@
+def Max_c(a,b):return((a+b)-1)
+a=int(input("First edge (a): "))
+b=int(input("Second edge (b): "))
+print(f"Maximum size of third edge(c): {Max_c(a,b)}")
