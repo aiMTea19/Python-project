@@ -1,0 +1,11 @@
+def EX3_4(a,b,c) : 
+    """
+    (int,int,int) -> (bool)
+    """
+    while b != 0 :
+        a *= 2
+        b -= 1
+    if a % c == 0 :
+        return f"True ({a} is divisible by {c})"
+    else :
+        return f"False ({a} isn't divisible by {c})"
