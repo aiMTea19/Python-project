@@ -1,4 +1,4 @@
- def EX3_1(x):
+def EX3_1(x):
     """
     (int) -> (int)
     """
