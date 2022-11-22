@@ -1,0 +1,10 @@
+def EX3_6(alist) :
+    """
+    (list) -> (str)
+    """
+    if len(alist) == 0 :
+        return ":/"
+    elif (max(alist) - min(alist)) in alist :
+        return ":)"
+    elif (max(alist) - min(alist)) not in alist :
+        return ":("
