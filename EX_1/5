@@ -5,5 +5,5 @@ elif 1<age<13 :
     print("You are a child!")
 elif 13<=age<20 :
     print("You are a teenager!")
-elif 20<=age<200 :
+elif age=<20 :
     print("You are an adult!")
